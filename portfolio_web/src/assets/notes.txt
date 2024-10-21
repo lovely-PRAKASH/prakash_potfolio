@@ -1,0 +1,6 @@
+devpic=https://www.freepik.com/search?format=search&last_filter=query&last_value=deveoper+Png&query=deveoper+Png&selection=1&type=vector;
+devpic2=https://pngtree.com/freepng/children-s-software-programming_5401261.html;
+aboutimg=https://www.cleanpng.com/free/developer.html;
+resumeImg=https://pngtree.com/freepng/cv-resume-job-employee-vector_16955958.html;
+resumeImg2=https://pngtree.com/element/down?id=NTM5NjA5Mw==&type=1&time=1728198884&token=ODdiZjA0ZDgxZTdjYmZmODAzOGRjZDhhN2UxZTMwYzU=&t=0;
+contactImg=https://www.pngwing.com/en/free-png-vcpsm/download;
