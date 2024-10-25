@@ -7,6 +7,7 @@ import Projects from './components/Projects'
 import Resume from './components/Resume'
 import Contact from './components/Contact'
 import Footer from './components/Footer'
+import Arrow from './components/Arrow'
 const App = () => {
   return (
     <div>
@@ -17,6 +18,7 @@ const App = () => {
       <Resume/>
       <Contact/>
       <Footer/>
+      <Arrow/>
     </div>
   )
 }

@@ -30,11 +30,11 @@ const Projects = () => {
     return (
         <section id='projects' className='flex flex-row bg-primary py-20 px-10'>
             <div className='w-full'>
-                <div className=' flex flex-col text-white  '>
+                <div className=' flex flex-col text-white leftAppear '>
                     <h1 className='border-b-4 border-secondary justify-center text-3xl font-bold w-[120px]'>Projects</h1>
                     <p className='flex-col py-5 font-semibold'>This is are some of my best projects. I have build these with ReactJS, NodeJs, Bootstrap, Tailwind & vanila css. check them out. </p>
                 </div>
-                <div className='flex flex-col md:flex-row gap-5 px-10 py-5 text-white justify-evenly items-center'>
+                <div className='flex flex-col md:flex-row gap-5 px-10 py-5 text-white justify-evenly items-center rightAppear'>
                     {config.projects.map((project) => (
                         <div className='relative '>
                             <img className='h-[200px] w-[300px]' src={project.image} alt={project.name} />

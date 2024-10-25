@@ -7,10 +7,10 @@ const About = () => {
   }
   return (
     <section id='about' className='flex md:flex-row flex-col justify-between bg-secondary px-5 py-20'>
-      <div className='md:w-1/2'>
+      <div className='md:w-1/2 leftAppear'>
         <img src={aboutImg} alt="about image" />
       </div>
-      <div className='md:w-1/2 flex justify-center py-10'>
+      <div className='md:w-1/2 flex justify-center py-10 rightAppear'>
         <div className='flex flex-col justify-center'>
           <h1 className='text-white text-3xl border-b-4 border-primary w-[150px] font-bold'>About Me</h1>
           <p className='text-white mt-3 justify-evenly text-justify text-xl py-3'>{config.line1}</p>
