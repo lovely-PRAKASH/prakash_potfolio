@@ -28,6 +28,19 @@ header{
 .btn{
     @apply bg-primary py-2 px-5 font-bold hover:border-2 border-white rounded;
 }
+
+.arrow{
+    color: white;
+    display: block ;
+    position: fixed;
+    font-size: 28px;
+    font-weight: 800;
+    top: 90%;
+    left: 93%;
+    align-items: flex-end;
+    justify-content: flex-end;
+    z-index: 2;
+}
 html{
     scroll-behavior: smooth;
 }
