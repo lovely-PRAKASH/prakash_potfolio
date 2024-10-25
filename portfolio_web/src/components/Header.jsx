@@ -5,7 +5,7 @@ const Header = () => {
  const [toggleMenu, setToggleMenu] = useState(false);
   return (
     <header className='flex justify-between px-5 py-2 bg-secondary'>
-      <a className='font-bold hover:text-white duration-500' href="/">Prakash Arthanarisamy</a>
+      <a className='font-bold bg-gradient hover:text-white duration-500' href="/">Prakash Arthanarisamy</a>
       <nav className='hidden md:block'>
         <ul className='flex gap-3 text-white font-semibold'>
           <li><a onClick={() => setToggleMenu(!toggleMenu)} href="/">Home</a></li>
