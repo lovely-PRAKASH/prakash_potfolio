@@ -7,7 +7,7 @@ const About = () => {
   }
   return (
     <section id='about' className='flex md:flex-row flex-col justify-between bg-secondary px-5 py-20'>
-      <div className='md:w-1/2'>
+      <div className='md:w-1/2 slideInRight'>
         <img src={aboutImg} alt="about image" />
       </div>
       <div className='md:w-1/2 flex justify-center py-10'>
