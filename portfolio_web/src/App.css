@@ -8,6 +8,7 @@
 .bg-secondary{
     background: #2b2d77;
 }
+
 nav ul li:hover{
     color:rgb(85 81 227);
 }
@@ -36,7 +37,7 @@ header{
     font-size: 28px;
     font-weight: 800;
     top: 90%;
-    left: 93%;
+    left: 90%;
     align-items: flex-end;
     justify-content: flex-end;
     z-index: 2;
@@ -46,6 +47,19 @@ html{
 }
 ::-webkit-scrollbar{
 display: none;
+}
+.bg-gradient{
+    background: linear-gradient(to right,#fc72ff, #8f68ff, #487bff, #8f68ff, #fc72ff);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    animation: animate-gradient 2.5s ease-in-out infinite;
+    background-size:200% ;
+}
+@keyframes animate-gradient{
+    to{
+        background-position: 200%;
+    }
 }
 
 @keyframes slideInLeft {
