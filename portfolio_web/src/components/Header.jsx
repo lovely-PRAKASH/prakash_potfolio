@@ -8,7 +8,7 @@ const Header = () => {
       <a className='font-bold hover:text-white duration-500' href="/">Prakash Arthanarisamy</a>
       <nav className='hidden md:block'>
         <ul className='flex gap-3 text-white font-semibold'>
-          <li><a onClick={() => setToggleMenu(!toggleMenu)} href="/">Home</a></li>
+          <li><a onClick={() => setToggleMenu(!toggleMenu)} href="#home">Home</a></li>
           <li><a onClick={() => setToggleMenu(!toggleMenu)} href="#about">About</a></li>
           <li><a onClick={() => setToggleMenu(!toggleMenu)} href="#projects">Projects</a></li>
           <li><a onClick={() => setToggleMenu(!toggleMenu)} href="#resume">Resume</a></li>
@@ -18,7 +18,7 @@ const Header = () => {
       {
         toggleMenu && <nav className='block md:hidden '>
           <ul className='flex flex-col gap-2 text-white font-semibold mobile-nav'>
-            <li><a onClick={() => setToggleMenu(!toggleMenu)} href="/">Home</a></li>
+            <li><a onClick={() => setToggleMenu(!toggleMenu)} href="#home">Home</a></li>
             <li><a onClick={() => setToggleMenu(!toggleMenu)} href="#about">About</a></li>
             <li><a onClick={() => setToggleMenu(!toggleMenu)} href="#projects">Projects</a></li>
             <li><a onClick={() => setToggleMenu(!toggleMenu)} href="#resume">Resume</a></li>
