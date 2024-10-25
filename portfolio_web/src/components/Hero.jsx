@@ -14,7 +14,7 @@ const Hero = () => {
         twitter:""
     }
     return (
-            <section id='home' className='flex flex-col md:flex-row bg-primary px-5 py-20 justify-center'>
+            <section className='flex flex-col md:flex-row bg-primary px-5 py-20 justify-center'>
                 <div className='md:w-1/2 flex flex-col slideInLeft justify-center'>
                     <h1 className=' text-white text-5xl font-Sriracha'>Hello,<br />I'm <span className='text-black'>Prakash</span> Arthanarisamy<br />
                         <p className='text-2xl'>{config.subtitle}</p></h1>
