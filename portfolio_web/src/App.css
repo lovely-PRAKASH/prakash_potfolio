@@ -17,6 +17,10 @@ nav ul li:hover{
 .mobile-nav li{
     @apply w-full h-full text-center;
 }
+header{
+    position: fixed;
+    width: 100%;
+}
 .project-desc{
    @apply absolute left-0 right-0 bottom-0 top-0 bg-secondary opacity-0 duration-500 hover:opacity-80 w-[300px];
 }
@@ -28,4 +32,32 @@ html{
 }
 ::-webkit-scrollbar{
 display: none;
+}
+
+@keyframes slideInLeft {
+    from{
+        transform: translateX(-300px);
+        opacity: 0;
+    }
+    to{
+        transform: translateX(0);
+        opacity: 1;
+    }
+}
+@keyframes slideInRight {
+    from{
+        transform: translateX(300px);
+        opacity: 0;
+    }
+    to{
+        transform: translateX(0);
+        opacity: 1;
+    }
+}
+
+.slideInLeft{
+    animation:slideInLeft 1s ease-in-out ;
+}
+.slideInRight{
+    animation:slideInRight 1s ease-in-out ;
 }
