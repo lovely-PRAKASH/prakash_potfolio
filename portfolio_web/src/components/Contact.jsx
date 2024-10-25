@@ -1,9 +1,9 @@
 import React from 'react'
 import contactImg from '../assets/contactUs.png'
 const Contact = () => {
-    const config={
-        email:"prakash.arthanari2002@gmail.com",
-        phone:"+91-999999999"
+    const config = {
+        email: "prakash.arthanari2002@gmail.com",
+        phone: "+91-999999999"
     }
     return (
         <section id='contact' className='flex md:flex-row flex-col justify-between bg-primary px-5 py-20'>
@@ -18,7 +18,6 @@ const Contact = () => {
             <div className='md:w-1/2 flex justify-center items-center rightAppear'>
                 <img className='w-[400px]' src={contactImg} alt="resume image" />
             </div>
-
         </section>
     )
 }
