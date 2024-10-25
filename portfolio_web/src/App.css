@@ -20,6 +20,7 @@ nav ul li:hover{
 header{
     position: fixed;
     width: 100%;
+    z-index: 1;
 }
 .project-desc{
    @apply absolute left-0 right-0 bottom-0 top-0 bg-secondary opacity-0 duration-500 hover:opacity-80 w-[300px];
@@ -46,18 +47,69 @@ display: none;
 }
 @keyframes slideInRight {
     from{
-        transform: translateX(300px);
         opacity: 0;
+        transform: translateX(300px);
     }
     to{
-        transform: translateX(0);
         opacity: 1;
+        transform: translateX(0);
     }
 }
-
+@keyframes leftAppear{
+    from{
+        opacity: 0;
+        scale: 0.5;
+        /* transform: translateX(-300px); */
+    }
+    to{
+        opacity: 1;
+        scale: 1;
+        /* transform: translateX(0); */
+    }
+}
+@keyframes rightAppear{
+    from{
+        opacity: 0;
+        scale: 0.5;
+        /* transform: translateX(300px); */
+    }
+    to{
+        opacity: 1;
+        scale: 1;
+        /* transform: translateX(0); */
+    }
+}
+@keyframes textAppear{
+    from{
+        opacity: 0;
+        /* scale: 0.5; */
+        transform: translateY(-200px);
+    }
+    to{
+        opacity: 1;
+        /* scale: 1; */
+        transform: translateY(0);
+    }
+}
+.textAppear{
+    animation: textAppear linear;
+    animation-timeline: view();
+    animation-range: entry 0 cover 60%;
+}
+.leftAppear{
+    animation: leftAppear linear;
+    animation-timeline: view();
+    animation-range: entry 0 cover 50%;
+}
+.rightAppear{
+    animation: rightAppear ease-in-out;
+    animation-timeline: view();
+    animation-range: entry 0 cover 50%;
+}
 .slideInLeft{
     animation:slideInLeft 1s ease-in-out ;
 }
 .slideInRight{
     animation:slideInRight 1s ease-in-out ;
+    
 }
