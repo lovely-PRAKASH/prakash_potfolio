@@ -2,7 +2,7 @@ import React from 'react'
 import resumeImg2 from '../assets/resumeImg2.png'
 const Resume = () => {
   const config={
-    link:'https://drive.google.com/file/d/1rTYuTU78RbIlU4xsClUhnc0t5FpH7zBa/view?usp=sharing'
+    link:'https://drive.google.com/file/d/1IuSNHQb3MpYxm4qhJLiDMn64wmc-sZDF/view?usp=sharing'
   }
   return (
     <section id='resume' className='flex md:flex-row flex-col justify-between bg-secondary px-5 py-20'>
