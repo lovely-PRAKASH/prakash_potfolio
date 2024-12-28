@@ -1,6 +1,7 @@
 import "./Navbar.scss"
 const Navbar = () => {
     return (
+        // nav compo created
         <div className="navbar">
             <div className="wrapper">
                 <span>Prakash Arthanarisamy</span>
